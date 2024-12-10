@@ -1,0 +1,9 @@
+body {
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #f3f0ea;
+}
