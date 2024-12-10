@@ -6,8 +6,28 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'animCircle': 'animCircle 10s linear infinite'
+      },
+      
+      keyframes: {
+        animCircle: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' }, 
+        },
+      },
+
+
+    },
+
+
   },
+
+
   plugins: [daisyui],
+
+
 }
